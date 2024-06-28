@@ -4,23 +4,25 @@ import bg1 from '../../assets/images/background/bg-1.png'
 import bg2 from '../../assets/images/background/bg-2.png'
 import offerimg1 from '../../assets/images/resource/offer-image-1.jpg'
 import offerimg2 from '../../assets/images/resource/offer-image-2.jpg'
-import offerimg3 from '../../assets/images/resource/offer-image-3.jpg'
+import offerimg4 from '../../assets/images/resource/offer-image-4.png'
+import offerimg5 from '../../assets/images/resource/offer-image-5.png'
+import offerimg6 from '../../assets/images/resource/offer-image-6.png'
 
 function Offer() {
 
   const offers = [
     {
-      image: offerimg1,
-      title: 'Breakfast',
-      link: '#'
-    },
-    {
-      image: offerimg2,
+      image: offerimg6,
       title: 'Appetizers',
       link: '#'
     },
     {
-      image: offerimg3,
+      image: offerimg5,
+      title: 'Main Course',
+      link: '#'
+    },
+    {
+      image: offerimg4,
       title: 'Drinks',
       link: '#'
     }
@@ -37,8 +39,8 @@ function Offer() {
             <div className="pattern-image">
               <img src={require('../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
             </div>
-            <h2>We Offer Top Notch</h2>
-            <div className="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</div>
+            <h2>Food with a view</h2>
+            <div className="text">Sozo greets you with a warm atmosphere, perfect for both casual outings and special occasions. The decor is tastefully done, enhancing the dining experience.</div>
           </div>
           <div className="row justify-content-center clearfix">
             {offers.map((offer, index) => (
