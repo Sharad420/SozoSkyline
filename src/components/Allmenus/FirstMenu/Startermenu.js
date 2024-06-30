@@ -5,8 +5,6 @@ import bgtwo from '../../../assets/images/background/bg-17.png'
 import bgthree from '../../../assets/images/background/bg-18.png'
 import menuone from '../../../assets/images/resource/menus-1.jpg'
 import menutwo from '../../../assets/images/resource/menus-2.jpg'
-import chili_img from '../../../assets/images/resource/chilli_menu_one.jpg' 
-import sushi_img from '../../../assets/images/resource/Sushi_platter.jpg' 
 
 function Startermenu() {
     return (
@@ -26,36 +24,36 @@ function Startermenu() {
                     <div className="row clearfix">
                         <div className="image-col col-lg-7 col-md-12 col-sm-12">
                             <div className="inner">
-                                <div className="image"><img src={chili_img} alt="" /></div>
+                                <div className="image"><img src={menuone} alt="" /></div>
                             </div>
                         </div>
                         <div className="menu-col col-lg-5 col-md-12 col-sm-12">
                             <div className="inner">
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Kung Pao</Link></h5></div><div className="price"><span>₹400</span></div></div>
-                                        <div className="text desc"><Link to="#">Boneless chicken, Assorted Vegetables, Cashew nuts with chilli oil</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Greek Salad</Link></h5></div><div className="price"><span>$25.50</span></div></div>
+                                        <div className="text desc"><Link to="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Chilli Bean <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>₹320</span></div></div>
-                                        <div className="text desc"><Link to="#">Chilli bean sauce, Assorted vegetables and scallions</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Lasagne <span className="s-info">SEASONAL</span></Link></h5></div><div className="price"><span>$40.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Bookham </Link></h5></div><div className="price"><span>₹400</span></div></div>
-                                        <div className="text desc"><Link to="#">Green lettuce, Bell peppers and served with chilli sauce </Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Butternut Pumpkin</Link></h5></div><div className="price"><span>$10.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Sozo Special Chicken <span className="s-info">Chefs Special</span></Link></h5></div><div className="price"><span>₹400</span></div></div>
-                                        <div className="text desc"><Link to="#">Nuts, Fried shallots and Boneless Chicken</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Tokusen Wagyu <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>$39.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</Link></div>
                                     </div>
                                 </div>
                             </div>
@@ -75,14 +73,14 @@ function Startermenu() {
                             <img src={require('../../../assets/images/icons/separator.svg').default} alt='mySvgImage' />
                         </div>
 
-                        <h2>Sushi</h2>
+                        <h2>Main Dishes</h2>
 
                     </div>
 
                     <div className="row clearfix">
                         <div className="image-col col-lg-7 col-md-12 col-sm-12">
                             <div className="inner">
-                                <div className="image"><img src={sushi_img} alt="" /></div>
+                                <div className="image"><img src={menutwo} alt="" /></div>
                             </div>
                         </div>
                         <div className="menu-col col-lg-5 col-md-12 col-sm-12">
@@ -90,29 +88,29 @@ function Startermenu() {
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Smoked Yougan</Link></h5></div><div className="price"><span>₹695</span></div></div>
-                                        <div className="text desc"><Link to="#">Prawns, Avocado and Sliced cheese with Smokey Sauce</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Greek Salad</Link></h5></div><div className="price"><span>$25.50</span></div></div>
+                                        <div className="text desc"><Link to="#">Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Kani Tempura <span className="s-info">SEASONAL</span></Link></h5></div><div className="price"><span>₹695</span></div></div>
-                                        <div className="text desc"><Link to="#">Crab Stick, avocado, cucumber, shichimi togarashi with avocado mayo</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Lasagne <span className="s-info">SEASONAL</span></Link></h5></div><div className="price"><span>$40.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Flaming Sozo Special</Link></h5></div><div className="price"><span>₹695</span></div></div>
-                                        <div className="text desc"><Link to="#">Salmon, avocado crab stick and cucumber</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Butternut Pumpkin</Link></h5></div><div className="price"><span>$10.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Typesetting industry lorem Lorem Ipsum is simply dummy text of the priand.</Link></div>
                                     </div>
                                 </div>
 
                                 <div className="dish-block">
                                     <div className="inner-box">
-                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Fried Pink Alaska <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>₹695</span></div></div>
-                                        <div className="text desc"><Link to="#">Salmon, Cream Cheese and Avocado</Link></div>
+                                        <div className="title clearfix"><div className="ttl clearfix"><h5><Link to="#">Tokusen Wagyu <span className="s-info">NEW</span></Link></h5></div><div className="price"><span>$39.00</span></div></div>
+                                        <div className="text desc"><Link to="#">Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices.</Link></div>
                                     </div>
                                 </div>
                             </div>
